@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    background-color: #e8ca2b;
+}
+
+.page {
+    padding-bottom: 1rem;
+}
+
+.header {
+    background-color: black;
+    height: 5rem;
+    text-align: center;
+}
+
+.header__logo {
+    height: 5rem;
+}
+
+.content {
+    margin-top: 1rem;
+}
+
+.pagination {
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.hero__label,
+.home-world__label {
+    font-style: italic;
+    font-weight: bold;
+    font-size: .75rem;
+    display: inline-block;
+    width: 30%;
+}
+
+.home-world {
+}
+
+.modal-header {
+    color: #FFE81F;
+    background-color: black;
+    border: 1px solid #FFE81F;
+}
+
+.modal-header .close {
+    color: #FFE81F;
+}
