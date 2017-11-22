@@ -49,3 +49,11 @@ body {
 .modal-header .close {
     color: #FFE81F;
 }
+
+.active-link {
+    cursor: pointer;
+}
+
+.item-align-right {
+    float: right;
+}

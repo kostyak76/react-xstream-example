@@ -7,7 +7,11 @@ export const Heroes = ({heroes, onSelect}) => (
     <ul className="heroes list-group">
       {
         heroes.map((hero, i) => (
-          <li onClick={() => onSelect(hero)} key={i} className="list-group-item">{hero.name}</li>
+          <li key={i} className="list-group-item">
+            {hero.name}
+            <span onClick={() => onSelect(hero)}
+                  className="badge badge-secondary badge-warning active-link item-align-right">see more</span>
+            </li>
         ))
       }
       {
